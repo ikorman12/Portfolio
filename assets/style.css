@@ -8,13 +8,41 @@
     border: 1px solid red;
 }
 
-li {
+header h1 {
+    min-width: 350px;
+    font-size: 300%;
+    align-items: left;
+}
+
+.header {
+    padding: 30px;
+    margin-left: 15px;
+    border-bottom: 10px solid white;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3{
+    font-size: 150%;
+}
+
+a{
+    text-decoration: none;
+    color: 120% var(--text);
+}
+
+.navlist {
     list-style: none;
-    align-items: right;
+    text-align: right;
+    display: inline-block;
     margin-left: 5px;
 }
 
 body {
+    display:flex;
+    flex-wrap: wrap;
     background: var(--background);
     color:var(--text);
     font-family:'Courier New', Courier, monospace;
