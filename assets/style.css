@@ -1,3 +1,23 @@
+:root {
+    --background: rgb(34, 63, 125);
+    --text: white;
+}
+
 *{
-    border-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+li {
+    list-style: none;
+    align-items: right;
+    margin-left: 5px;
+}
+
+body {
+    background: var(--background);
+    color:var(--text);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
 }
